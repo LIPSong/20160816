@@ -6,25 +6,42 @@ NO.9
 		实现（多态）方式：
 			1.更改对象的构造方法 
 			2.在父类中去判断 构造方法的类型 执行不同的方法
+		改变数据类型
 	DOM Element
 		element.cloneNode(boolean)	克隆某个元素
+			false:只克隆元素 不克隆元素里面的内容
+			true:即克隆元素 又克隆里面的内容
+			不管是false||true  都不会去克隆 事件
+
 		element.firstChild	返回元素的第一个子节点
 		element.focus()	设置文档或元素获取焦点
 		
 		element.hasAttribute()	如果元素中存在指定的属性返回 true，否则返回false。
 		element.hasAttributes()	如果元素有任何属性返回true，否则返回false。
 		element.hasChildNodes()	返回一个元素是否具有任何子元素
-		element.hasfocus()	返回布尔值，检测文档或元素是否获取焦点
+		xxx  element.hasfocus()	返回布尔值，检测文档或元素是否获取焦点
 		
 		element.insertBefore()	现有的子元素之前插入一个新的子元素
-		element.isContentEditable	如果元素内容可编辑返回 true，否则返回false
+			父节点.insertBefore(插入的子节点,参考位置节点);
+
+
+		xxxx  element.isContentEditable	如果元素内容可编辑返回 true，否则返回false
+
 		element.lastChild	返回的最后一个子元素
 		element.nodeType	返回元素的节点类型
+			元素：1
+			属性：2
+			文本节点：3
+
 		element.nodeValue	返回元素的节点值
+			只能获得文本节点里面的值
+			如果节点是元素节点  nodeValue永远都是null
+
 		element.parentNode	返回元素的父节点
 		element.removeAttribute()	从元素中删除指定的属性
 		element.removeAttributeNode()	删除指定属性节点并返回移除后的节点。
-		element.removeChild()	删除一个子元素
+
+		element.removeChild(子元素的名字)	删除一个子元素
 		element.removeEventListener()	移除由 addEventListener() 方法添加的事件句柄
 		element.replaceChild(newNode,oldNode)	替换一个子元素
 		element.scrollHeight	返回整个元素的高度（包括带滚动条的隐蔽的地方）
@@ -34,6 +51,8 @@ NO.9
 		element.setAttribute()	设置或者改变指定属性并指定值。
 		element.setAttributeNode()	设置或者改变指定属性节点。
 		element.textContent	设置或返回一个节点和它的文本内容
+
+	----------------------------	
 	DOM Event
 		鼠标
 			onclick	当用户点击某个对象时调用的事件句柄。
