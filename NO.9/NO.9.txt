@@ -1,0 +1,101 @@
+NO.9
+	多态：
+		概念：同一个对象 使用同一个方法 有不同的实现
+		1.js中不支持函数的重载 
+		2.并且不能更改对象的原型 对象的原型是在创建的时候 被设置完毕 
+		实现（多态）方式：
+			1.更改对象的构造方法 
+			2.在父类中去判断 构造方法的类型 执行不同的方法
+	DOM Element
+		element.cloneNode(boolean)	克隆某个元素
+		element.firstChild	返回元素的第一个子节点
+		element.focus()	设置文档或元素获取焦点
+		
+		element.hasAttribute()	如果元素中存在指定的属性返回 true，否则返回false。
+		element.hasAttributes()	如果元素有任何属性返回true，否则返回false。
+		element.hasChildNodes()	返回一个元素是否具有任何子元素
+		element.hasfocus()	返回布尔值，检测文档或元素是否获取焦点
+		
+		element.insertBefore()	现有的子元素之前插入一个新的子元素
+		element.isContentEditable	如果元素内容可编辑返回 true，否则返回false
+		element.lastChild	返回的最后一个子元素
+		element.nodeType	返回元素的节点类型
+		element.nodeValue	返回元素的节点值
+		element.parentNode	返回元素的父节点
+		element.removeAttribute()	从元素中删除指定的属性
+		element.removeAttributeNode()	删除指定属性节点并返回移除后的节点。
+		element.removeChild()	删除一个子元素
+		element.removeEventListener()	移除由 addEventListener() 方法添加的事件句柄
+		element.replaceChild(newNode,oldNode)	替换一个子元素
+		element.scrollHeight	返回整个元素的高度（包括带滚动条的隐蔽的地方）
+		element.scrollLeft	返回当前视图中的实际元素的左边缘和左边缘之间的距离
+		element.scrollTop	返回当前视图中的实际元素的顶部边缘和顶部边缘之间的距离
+		element.scrollWidth	返回元素的整个宽度（包括带滚动条的隐蔽的地方）
+		element.setAttribute()	设置或者改变指定属性并指定值。
+		element.setAttributeNode()	设置或者改变指定属性节点。
+		element.textContent	设置或返回一个节点和它的文本内容
+	DOM Event
+		鼠标
+			onclick	当用户点击某个对象时调用的事件句柄。
+			ondblclick	当用户双击某个对象时调用的事件句柄。	
+			onmousedown	鼠标按钮被按下。	
+			onmouseenter	当鼠标指针移动到元素上时触发。	
+			onmouseleave	当鼠标指针移出元素时触发	
+			onmousemove	鼠标被移动。	
+			onmouseover	鼠标移到某元素之上。
+			onmouseout	鼠标从某元素移开。	
+			onmouseup	鼠标按键被松开。
+		键盘
+			onkeydown	某个键盘按键被按下。
+			onkeypress	某个键盘按键被按下并松开。	
+			onkeyup	某个键盘按键被松开。
+
+	Date
+		Date()	返回当日的日期和时间。
+		getDate()	从 Date 对象返回一个月中的某一天 (1 ~ 31)。
+		getDay()	从 Date 对象返回一周中的某一天 (0 ~ 6)。
+		getMonth()	从 Date 对象返回月份 (0 ~ 11)。
+		getFullYear()	从 Date 对象以四位数字返回年份。
+		getHours()	返回 Date 对象的小时 (0 ~ 23)。
+		getMinutes()	返回 Date 对象的分钟 (0 ~ 59)。
+		getSeconds()	返回 Date 对象的秒数 (0 ~ 59)。
+		getMilliseconds()	返回 Date 对象的毫秒(0 ~ 999)。
+		getTime()	返回 1970 年 1 月 1 日至今的毫秒数。
+		getTimezoneOffset()	返回本地时间与格林威治标准时间 (GMT) 的分钟差。
+		getUTCDate()	根据世界时从 Date 对象返回月中的一天 (1 ~ 31)。
+		getUTCDay()	UTC(Coordinated Universal Time)根据世界时从 Date 对象返回周中的一天 (0 ~ 6)。
+		getUTCMonth()	根据世界时从 Date 对象返回月份 (0 ~ 11)。
+		getUTCFullYear()	根据世界时从 Date 对象返回四位数的年份。
+		getUTCHours()	根据世界时返回 Date 对象的小时 (0 ~ 23)。
+		getUTCMinutes()	根据世界时返回 Date 对象的分钟 (0 ~ 59)。
+		getUTCSeconds()	根据世界时返回 Date 对象的秒钟 (0 ~ 59)。
+		getUTCMilliseconds()	根据世界时返回 Date 对象的毫秒(0 ~ 999)。
+		parse()	返回1970年1月1日午夜到指定日期（字符串）的毫秒数。
+		setDate()	设置 Date 对象中月的某一天 (1 ~ 31)。
+		setMonth()	设置 Date 对象中月份 (0 ~ 11)。
+		setFullYear()	设置 Date 对象中的年份（四位数字）。
+		setYear()	请使用 setFullYear() 方法代替。
+		setHours()	设置 Date 对象中的小时 (0 ~ 23)。
+		setMinutes()	设置 Date 对象中的分钟 (0 ~ 59)。
+		setSeconds()	设置 Date 对象中的秒钟 (0 ~ 59)。
+		setMilliseconds()	设置 Date 对象中的毫秒 (0 ~ 999)。
+		setTime()	以毫秒设置 Date 对象。
+		setUTCDate()	根据世界时设置 Date 对象中月份的一天 (1 ~ 31)。
+		setUTCMonth()	根据世界时设置 Date 对象中的月份 (0 ~ 11)。
+		setUTCFullYear()	根据世界时设置 Date 对象中的年份（四位数字）。
+		setUTCHours()	根据世界时设置 Date 对象中的小时 (0 ~ 23)。
+		setUTCMinutes()	根据世界时设置 Date 对象中的分钟 (0 ~ 59)。
+		setUTCSeconds()	根据世界时设置 Date 对象中的秒钟 (0 ~ 59)。
+		setUTCMilliseconds()	根据世界时设置 Date 对象中的毫秒 (0 ~ 999)。
+		toString()	把 Date 对象转换为字符串。
+		toTimeString()	把 Date 对象的时间部分转换为字符串。
+		toDateString()	把 Date 对象的日期部分转换为字符串。
+		toUTCString()	根据世界时，把 Date 对象转换为字符串。
+		toLocaleString()	根据本地时间格式，把 Date 对象转换为字符串。
+		toLocaleTimeString()	根据本地时间格式，把 Date 对象的时间部分转换为字符串。
+		toLocaleDateString()	根据本地时间格式，把 Date 对象的日期部分转换为字符串。
+		UTC()	根据世界时返回 1970 年 1 月 1 日 到指定日期的毫秒数。
+		valueOf()	返回 Date 对象的原始值。
+	transform:
+		rotate:rotate(vaule+deg)
+		transform-origin:x y z
