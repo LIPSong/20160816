@@ -1,0 +1,76 @@
+#clock {
+    width: 300px;
+    height: 300px;
+    background: #c9d4ec;
+    border-radius: 150px;
+}
+
+#hPointer {
+    width: 60px;
+    height: 10px;
+    background: #fffefd;
+    position: absolute;
+    left: 150px;
+    top: 165px;
+    transform-origin: 1% 100%;
+}
+
+#mPointer {
+    width: 80px;
+    height: 5px;
+    background: #0097ff;
+    position: absolute;
+    left: 150px;
+    top: 168px;
+    transform-origin: 1% 100%;
+}
+
+#sPointer {
+    width: 120px;
+    height: 2px;
+    background: #ff0095;
+    position: absolute;
+    left: 150px;
+    top: 169px;
+    transform-origin: 1% 100%;
+}
+/*
+#hPointer {
+    height: 60px;
+    width: 10px;
+    background: #fffefd;
+    position: absolute;
+    left: 150px;
+    top: 120px;
+    transform-origin: 1% 100%;
+}
+
+#mPointer {
+    height: 80px;
+    width: 5px;
+    background: #0097ff;
+    position: absolute;
+    left: 152px;
+    top: 100px;
+    transform-origin: 1% 100%;
+}
+
+#sPointer {
+    height: 120px;
+    width: 2px;
+    background: #ff0095;
+    position: absolute;
+    left: 154px;
+    top: 60px;
+    transform-origin: 1% 100%;
+}
+
+*/
+
+.colorView {
+    width: 10px;
+    height: 500px;
+    background: #facd76;
+    float: left;
+    margin-left: 5px;
+}

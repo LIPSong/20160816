@@ -75,8 +75,7 @@
 
 # NO.10
 ##视频
-1. 上午：链接: http://pan.baidu.com/s/1kUVEGuj 密码: 8agy
-2. 下午01：链接: https://pan.baidu.com/s/1geXOMzD 密码: kz2m
+链接: https://pan.baidu.com/s/1kUCHTrT 密码: kcgv
 ##作业
 1. 完成数字时钟：周二下午03:01 这种格式
 2. 完成时钟界面
