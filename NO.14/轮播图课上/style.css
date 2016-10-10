@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#backgroundView {
+    width: 1200px;
+    height: 800px;
+    background: #333333;
+    margin: 0 auto;
+}
+
+#content {
+    width: 1200px;
+    height: 800px;
+    overflow: hidden;
+}
+
+/*.imageView {*/
+    /*display: none;*/
+/*}*/
+
+#preButton {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+#nextButton {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.pointButton {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #d1d1d1;
+    border-radius: 15px;
+    border-style: none;
+    outline: none;
+    top:80%;
+    color: #ffffff;
+}
+
+#selectedButton{
+    background: #27b0ff;
+}
