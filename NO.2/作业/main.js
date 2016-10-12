@@ -4,7 +4,7 @@
 
 
 //计算"35"+59+80+"87.6"的和
-/*
+
 var firstNum = parseFloat("35");
 var sum = firstNum+59+80+parseFloat("87.6");
 console.log(sum);
@@ -28,10 +28,11 @@ if (1) {
         }
     }
 }
-*/
+
+
 
 //1.判断标记 是不是  + - * / %
-/*
+
 if (markString==="+"||markString==="-"||markString==="*"||markString==="/"||markString==="%"){
 
     //2.如果用户输入的是+号,就进行加法运算
@@ -54,7 +55,7 @@ if (markString==="+"||markString==="-"||markString==="*"||markString==="/"||mark
     }
 
 }
-*/
+
 // else {
 //     console.log("您输入的符号有误!");
 // }
@@ -67,10 +68,10 @@ if (markString==="+"||markString==="-"||markString==="*"||markString==="/"||mark
 
 // console.log(result);
 
-/*
+
 * result 如果是undefined -> 进入else (条件是假)
 * result 如果是有值的 -> 进入if后面的花括号 (条件是真)
-* */
+
 // if (result){
 //     console.log("111");
 // }else {
@@ -79,7 +80,7 @@ if (markString==="+"||markString==="-"||markString==="*"||markString==="/"||mark
 
 
 // 使用三目运算和if语句 分别实现 当用户输入"你好"回应"很高兴见到你"，如果用户输入任何其他的 全部回应"我汉语还不是很好"
-/*
+
 var user = prompt();
 if (user === "你好"){
     console.log("很高兴见到你");
