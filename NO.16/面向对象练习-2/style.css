@@ -1,0 +1,39 @@
+/*
+选中背景图的样式
+弹开样式
+*/
+.xuanZhong {
+    overflow: visible;
+    width: 300px;
+    border: 1px solid gray;
+}
+
+/*
+背景图 普通状态下的样式
+收回样式
+*/
+.puTong {
+    width: 300px;
+    height: 30px;
+    overflow: hidden;
+    border: 1px solid gray;
+}
+
+/*
+视图中的标题
+*/
+.biaoTi {
+    margin: 0;
+    text-align: center;
+    line-height: 30px;
+    background: #1295ff;
+    color: aliceblue;
+    border-bottom: 1px solid gray;
+}
+
+/*
+视图中的内容
+*/
+.neiRong {
+    padding: 5px;
+}

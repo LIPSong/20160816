@@ -29,7 +29,7 @@
 		14）search("f")搜索字符串位置 里面可写正则表达式
 		15）match()查找字符串 并提供一个包含查询字符、索引位置、查询原内容的数组 也可使用正则表达式
 		16）replace()替换字符  可使用正则string2.replace("WF","#")
-		17）split()分割字符串string2.split(",")
+		17）split()分割字符串string2.split(",") 分割成数组
 		18）anchor()	创建 HTML 锚
 数组
 	简介：JavaScript的Array可以包含任意数据类型，并通过索引来访问每个元素
